@@ -53,7 +53,7 @@ spec:
             - containerPort: 80
           env:
             - name: PMA_HOST
-              value: db
+              value: mysql
 ---
 apiVersion: apps/v1
 kind: Deployment
